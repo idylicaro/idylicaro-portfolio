@@ -1,0 +1,22 @@
+{
+  "name": "idylicaro-portfolio",
+  "version": "1.0.0",
+  "description": "Portifolio",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idylicaro/idylicaro-portfolio.git"
+  },
+  "keywords": [
+    "Portifolio"
+  ],
+  "author": "Idyl Icaro dos Santos <idylicaro.se@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idylicaro/idylicaro-portfolio/issues"
+  },
+  "homepage": "https://github.com/idylicaro/idylicaro-portfolio#readme",
+  "dependencies": {
+  }
+}
