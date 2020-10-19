@@ -84,19 +84,23 @@ button:hover, a:hover {
   width: 100%;
   height: 50em;
   color: aliceblue;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: flex-start;
-  flex-grow: 1;
+
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-rows: 1.1fr 0.1fr 1.5fr;
+  gap: 2em 2em;
+  grid-template-areas:
+    "about-me skill-card"
+    ". ."
+    "projects projects";
 }
 
 /*Skill bars*/
 .skill-card{
-  padding: 10px;
-  width: 35%;
+  grid-area: skill-card;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,3 +129,19 @@ button:hover, a:hover {
 
 /*Skill bars*/
 
+/*About me*/
+.about-me { 
+  grid-area: about-me;
+  width: 100%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+  grid-area: projects;
+}
