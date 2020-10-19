@@ -4,7 +4,7 @@ const particlesJSON = {
               "value": 50,
               "density": {
                   "enable": true,
-                  "value_area": 700 //Denser the smaller the number.
+                  "value_area": 600 //Denser the smaller the number.
               }
           },
           "color": { //The color for every node, not the connecting lines.
