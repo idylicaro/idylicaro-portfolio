@@ -83,8 +83,14 @@ button:hover, a:hover {
 	top: 80%;
   width: 100%;
   height: 50em;
-  display: flexbox;
   color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  flex-grow: 1;
 }
 
 /*Skill bars*/
