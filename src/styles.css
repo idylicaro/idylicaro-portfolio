@@ -3,15 +3,30 @@
     padding: 0;
   }
 
-  
+
+
+/*Particle.js*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
 /*Perfil card*/
 
 .perfil-card {
   display: block;
+  margin-top: 15px;
   box-shadow: 0 4px 8px 0 #007ecc;
   max-width: 400px;
   margin: auto;
   text-align: center;
+  color: aliceblue;
+  margin-top: 5%;
 }
 
 .title {
