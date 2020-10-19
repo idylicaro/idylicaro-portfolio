@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
   }
 
+p{
+  font-weight: 500;
+}
 /*Particle.js*/
 #particles-js {
   position: absolute;
@@ -32,6 +37,14 @@ canvas {
 .card:hover {
   box-shadow: 0 5px 2px 0 #007ecc;
 }
+.card-title{
+  width: 100%;
+  background-color: #007ecc;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 2px;
+}
 
 /*Perfil card*/
 
@@ -48,10 +61,18 @@ canvas {
   margin: 0;
 }
 
-.title {
-  color: #fffff9;
-  font-size: 18px;
+.name{
+  color: aliceblue;
+  font-size:1.9rem;
+  font-weight: 700;
 }
+
+.title {
+  color: aliceblue;
+  font-size:1.6rem;
+  font-weight: 500;
+}
+
 
 button {
   border: none;
@@ -63,7 +84,8 @@ button {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 a {
@@ -101,6 +123,7 @@ button:hover, a:hover {
 .skill-card{
   grid-area: skill-card;
   width: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +156,11 @@ button:hover, a:hover {
 .about-me { 
   grid-area: about-me;
   width: 100%;
+  height: 100%;
 }
+.about-me > p {
+  padding: 10px;
+} 
 
 .projects {
   display: grid;
